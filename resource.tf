@@ -6,5 +6,6 @@ resource "aws_instance" "web" {
     Name = var.name
     Env = upper("production")
     Owner = "gagandeep"
+    Dept = "Eng"
   }
 }
